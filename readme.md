@@ -8,7 +8,7 @@ DB_HOST=127.0.0.1 (Địa chỉ server database)
 DB_PORT=3306 (Port của database)
 DB_DATABASE=s-cart (Tên dữ liệu của bạn)
 DB_USERNAME=root (Tên người dùng kết nối dữ liệu)
-DB_PASSWORD= (Mật khẩu người dùng dữ liệu)
+DB_PASSWORD= (Mật khẩu người dùng dữ liệu)ss
 APP_URL=http://localhost (đây là url website của bạn)
 ADMIN_URL=system_admin (Đường dẫn tới Admin)
 

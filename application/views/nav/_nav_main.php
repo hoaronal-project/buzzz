@@ -1,5 +1,18 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-<nav class="navbar navbar-default main-menu megamenu">
+<script>
+    window.onscroll = function() {myFunction()};
+    const header = document.getElementById("main-menu");
+    const sticky = header.offsetTop;
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+</script>
+
+<nav class="navbar navbar-default main-menu megamenu" id="main-menu">
     <div class="container">
         <?php $menu_limit = $general_settings->menu_limit - 1; ?>
         <!-- Collect the nav links, forms, and other content for toggling -->

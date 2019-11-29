@@ -919,5 +919,4 @@ if (!function_exists('str_slug')) {
         return url_title(convert_accented_characters($str), "-", true);
     }
 }
-
 ?>

@@ -156,7 +156,7 @@
         element.classList.add("sticky");
 
         $(window).bind('scroll', function () {
-            if ($(window).scrollTop() > 50) {
+            if ($(window).scrollTop() > 45) {
                 element.classList.add("sticky");
             } else {
                 element.classList.remove("sticky");

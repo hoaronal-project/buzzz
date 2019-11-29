@@ -158,6 +158,7 @@
             } else {
                 $('.menu').removeClass('sticky');
             }
+            console.log('sdsdsdsd')
         });
     });
 </script>

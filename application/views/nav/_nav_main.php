@@ -1,32 +1,4 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-<script>
-    window.onscroll = function() {myFunction()};
-    const header = document.getElementsByClassName("megamenu");
-    const sticky = header.offsetTop;
-    function myFunction() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-        } else {
-            header.classList.remove("sticky");
-        }
-    }
-    jQuery(document).ready(function () {
-        $(window).bind('scroll', function () {
-            if ($(window).scrollTop() > 50) {
-                $('.menu').addClass('sticky');
-            } else {
-                $('.menu').removeClass('sticky');
-            }
-        });
-    });
-</script>
-<style>
-	.sticky {
-		position: fixed;
-		top: 0;
-	}
-</style>
-
 <nav class="navbar navbar-default main-menu megamenu">
     <div class="container">
         <?php $menu_limit = $general_settings->menu_limit - 1; ?>

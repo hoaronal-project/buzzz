@@ -100,25 +100,6 @@ if ($language->id == $site_lang->id):?>
 <body>
 <header id="header">
     <?php $this->load->view('nav/_nav_top'); ?>
-    <div class="logo-banner">
-        <div class="container">
-            <div class="col-sm-12">
-                <div class="row">
-                    <div class="left">
-                        <a href="<?php echo lang_base_url(); ?>">
-                            <img src="<?php echo get_logo($vsettings); ?>" alt="logo" class="logo">
-                        </a>
-                    </div>
-                    <div class="right">
-                        <div class="pull-right">
-                            <!--Include banner-->
-                            <?php $this->load->view("partials/_ad_spaces", ["ad_space" => "header"]); ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!--/.container-->
-    </div><!--/.top-bar-->
     <?php $this->load->view('nav/_nav_main'); ?>
     <div class="col-sm-12">
         <div class="row">

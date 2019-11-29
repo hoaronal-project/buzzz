@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <script>
     window.onscroll = function() {myFunction()};
-    const header = document.getElementById("main-menu");
+    const header = document.getElementsByClassName("megamenu");
     const sticky = header.offsetTop;
     function myFunction() {
         if (window.pageYOffset > sticky) {
@@ -23,11 +23,10 @@
 	.sticky {
 		position: fixed;
 		top: 0;
-		width: 100%;
 	}
 </style>
 
-<nav class="navbar navbar-default main-menu megamenu" id="main-menu">
+<nav class="navbar navbar-default main-menu megamenu">
     <div class="container">
         <?php $menu_limit = $general_settings->menu_limit - 1; ?>
         <!-- Collect the nav links, forms, and other content for toggling -->

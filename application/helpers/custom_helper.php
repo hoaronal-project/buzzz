@@ -585,10 +585,10 @@ if (!function_exists('get_logo')) {
             if (!empty($settings->logo) && file_exists(FCPATH . $settings->logo)) {
                 return base_url() . $settings->logo;
             } else {
-                return base_url() . "assets/img/logo.svg";
+                return base_url() . "assets/img/logo.png";
             }
         } else {
-            return base_url() . "assets/img/logo.svg";
+            return base_url() . "assets/img/logo.png";
         }
     }
 }
@@ -601,10 +601,10 @@ if (!function_exists('get_logo_footer')) {
             if (!empty($settings->logo_footer) && file_exists(FCPATH . $settings->logo_footer)) {
                 return base_url() . $settings->logo_footer;
             } else {
-                return base_url() . "assets/img/logo-footer.svg";
+                return base_url() . "assets/img/logo-footer.png";
             }
         } else {
-            return base_url() . "assets/img/logo-footer.svg";
+            return base_url() . "assets/img/logo-footer.png";
         }
     }
 }
@@ -617,10 +617,10 @@ if (!function_exists('get_logo_email')) {
             if (!empty($settings->logo_email) && file_exists(FCPATH . $settings->logo_email)) {
                 return base_url() . $settings->logo_email;
             } else {
-                return base_url() . "assets/img/logo.png";
+                return base_url() . "assets/img/logo-email.png";
             }
         } else {
-            return base_url() . "assets/img/logo.png";
+            return base_url() . "assets/img/logo-email.png";
         }
     }
 }

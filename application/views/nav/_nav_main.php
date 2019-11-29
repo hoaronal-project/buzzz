@@ -10,7 +10,22 @@
             header.classList.remove("sticky");
         }
     }
+
+    $(window).bind('scroll', function () {
+        if ($(window).scrollTop() > 50) {
+            $('.menu').addClass('sticky');
+        } else {
+            $('.menu').removeClass('sticky');
+        }
+    });
 </script>
+<style>
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+</style>
 
 <nav class="navbar navbar-default main-menu megamenu" id="main-menu">
     <div class="container">

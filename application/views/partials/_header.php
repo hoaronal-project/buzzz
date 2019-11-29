@@ -109,9 +109,11 @@ if ($language->id == $site_lang->id):?>
                         <span onclick="open_mobile_nav();" class="mobile-menu-icon"><i class="icon-menu"></i> </span>
                     </div>
                     <div class="col-xs-8">
-						<a href="<?php echo lang_base_url(); ?>">
-							<img src="<?php echo get_logo($vsettings); ?>" alt="logo" class="logo">
-						</a>
+                        <div class="logo-cnt">
+                            <a href="<?php echo lang_base_url(); ?>">
+                                <img src="<?php echo get_logo($vsettings); ?>" alt="logo" class="logo">
+                            </a>
+                        </div>
                     </div>
                     <div class="col-xs-2 right">
                         <a class="search-icon"><i class="icon-search"></i></a>

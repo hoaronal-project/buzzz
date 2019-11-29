@@ -10,13 +10,14 @@
             header.classList.remove("sticky");
         }
     }
-
-    $(window).bind('scroll', function () {
-        if ($(window).scrollTop() > 50) {
-            $('.menu').addClass('sticky');
-        } else {
-            $('.menu').removeClass('sticky');
-        }
+    jQuery(document).ready(function () {
+        $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > 50) {
+                $('.menu').addClass('sticky');
+            } else {
+                $('.menu').removeClass('sticky');
+            }
+        });
     });
 </script>
 <style>

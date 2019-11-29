@@ -159,7 +159,6 @@
             } else {
                 element.classList.remove("sticky");
             }
-            console.log('sdsdsdsd')
         });
     });
 </script>

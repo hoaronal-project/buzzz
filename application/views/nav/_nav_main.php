@@ -6,8 +6,8 @@
         <div class="collapse navbar-collapse">
             <div class="row">
                 <ul class="nav navbar-nav">
-                    <li class="<?php echo (uri_string() == 'index' || uri_string() == "") ? 'active' : ''; ?>">
-						<a href="<?php echo lang_base_url(); ?>" style="border-bottom-color: white">
+                    <li>
+						<a href="<?php echo lang_base_url(); ?>">
 							<img src="<?php echo get_logo($vsettings); ?>" alt="logo" class="logo">
 						</a>
                     </li>

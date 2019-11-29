@@ -108,13 +108,14 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="li-search">
-                        <a class="search-icon"><i class="icon-search"></i></a>
-                        <div class="search-form">
-                            <?php echo form_open(lang_base_url() . 'search', ['method' => 'get', 'id' => 'search_validate']); ?>
-                            <input type="text" name="q" maxlength="300" pattern=".*\S+.*" class="form-control form-input" placeholder="<?php echo trans("placeholder_search"); ?>" <?php echo ($rtl == true) ? 'dir="rtl"' : ''; ?> required>
-                            <button class="btn btn-default"><i class="icon-search"></i></button>
-                            <?php echo form_close(); ?>
-                        </div>
+						<div class="gcse-search"></div>
+<!--                        <a class="search-icon"><i class="icon-search"></i></a>-->
+<!--                        <div class="search-form">-->
+<!--                            --><?php //echo form_open(lang_base_url() . 'search', ['method' => 'get', 'id' => 'search_validate']); ?>
+<!--                            <input type="text" name="q" maxlength="300" pattern=".*\S+.*" class="form-control form-input" placeholder="--><?php //echo trans("placeholder_search"); ?><!--" --><?php //echo ($rtl == true) ? 'dir="rtl"' : ''; ?><!-- required>-->
+<!--                            <button class="btn btn-default"><i class="icon-search"></i></button>-->
+<!--                            --><?php //echo form_close(); ?>
+<!--                        </div>-->
                     </li>
                 </ul>
             </div>

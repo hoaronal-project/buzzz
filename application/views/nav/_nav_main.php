@@ -1,5 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-<nav class="navbar navbar-default main-menu megamenu">
+<nav class="navbar navbar-default main-menu megamenu" id="menu-fixed">
     <div class="container">
         <?php $menu_limit = $general_settings->menu_limit - 1; ?>
         <!-- Collect the nav links, forms, and other content for toggling -->

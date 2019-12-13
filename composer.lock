@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dec07cd12fd697a11444f339d8d62337",
+    "content-hash": "b54e2f01c116aba8ccb56198dc91f40a",
     "packages": [],
     "packages-dev": [
         {
@@ -1260,7 +1260,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.13.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -1318,7 +1318,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.4.0",
+            "version": "v4.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -1431,6 +1431,7 @@
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.6",
+        "ext-gd": "^7.3",
         "ext-mbstring": "^7.3"
     },
     "platform-dev": []
